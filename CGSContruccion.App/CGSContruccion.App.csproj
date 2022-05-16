@@ -3636,10 +3636,16 @@
     <Content Include="Scripts\Sweetalert2\src\scss\_toasts.scss" />
     <Content Include="Scripts\Sweetalert2\src\sweetalert2.scss" />
     <Content Include="Scripts\Sweetalert2\src\variables.scss" />
+    <Content Include="Views\Empresa\Empresa.cshtml" />
+    <Content Include="Views\Sucursal\Sucursal.cshtml" />
+    <Content Include="Views\Empresa\Crear_Empresa.cshtml" />
+    <Content Include="Views\Empresa\Editar_Empresa.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\EmpresaController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\SucursalController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
